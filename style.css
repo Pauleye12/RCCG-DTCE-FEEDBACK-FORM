@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.705);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 255, 0.11);
+  background-image: url(./images/Evaluation.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+
+}
+/* .align{
+  text-align: center;
+  display: ;
+} */
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.img-wrapper img {
+  width: 60px;
+}
+
+.max-width {
+  max-width: 800px;
+  padding: 10px 20px 30px 20px;
+  background-color: rgba(255, 255, 255, 0.815);
+}
+.evaluation-form-wrapper h1,
+.evaluation-form-wrapper h3 {
+  /* text-align: center; */
+}
+.evaluation-form-wrapper h3 {
+  font-size: 25px;
+}
+.evaluation-form-wrapper p {
+  font-size: 20px;
+}
+.intro-text {
+  margin-top: 6px;
+  margin-bottom: 17px;
+}
+.scale-wrapper-rate {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+.main-table-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+table {
+  border-collapse: collapse;
+}
+thead tr th,
+tbody tr td {
+  padding: 7px 3px;
+}
+thead tr th {
+  text-align: start;
+}
+thead tr {
+  background-color: rgba(0, 128, 0, 0.61);
+}
+tbody tr td {
+  padding-left: 7px;
+}
+th,
+td,
+table {
+  border: 1px solid rgb(0, 128, 0);
+}
+/* td,th{
+    text-align: center;
+} */
+.tab-num {
+  text-align: center;
+}
+
+.evaluation-form-wrapper {
+  /* padding: 20px 0; */
+}
+.evaluation-form-wrapper-div {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 5px 0;
+}
+.evaluation-form-wrapper p {
+}
+.scale-wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.input-radio {
+  min-width: 30px;
+}
+/* FORM SECTION */
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 0px 15px; */
+  height: 380px;
+}
+.form-section {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.452);
+  /* max-width: 700px; */
+}
+.form-section h1 {
+  text-align: center;
+}
+.form-section form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-top: 17px;
+}
+.form-det {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  padding: 5px 10px;
+  /* box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.452); */
+  transition: 0.35s;
+  background-color: rgba(128, 128, 128, 0.219);
+}
+.form-det:focus {
+  border: 1px solid rgb(0, 128, 0);
+}
+
+.submit-btn {
+  margin-top: 10px;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: rgb(0, 128, 0);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.452);
+  color: white;
+}
+.submit-btn:hover {
+  cursor: pointer;
+  transform: translateY(-3px);
+
+  color: white;
+}
+
+.evaluation-questions {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.answer-inputs{
+    margin-top: 10px;
+}
+textarea {
+  width: 100%;
+  padding: 10px;
+}
+
+.submit-form {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+
+/* REGISTRATION FORM */
+
+/* input{
+    width: 100%;
+    border: none;
+} */
+
+@media (max-width: 412px) {
+  .evaluation-form-wrapper h1 {
+    font-size: 20px;
+  }
+  .evaluation-form-wrapper h3 {
+    font-size: 15px;
+  }
+  .evaluation-form-wrapper p {
+    font-size: 14px;
+  }
+}
